@@ -1,0 +1,22 @@
+{
+  "name": "dre-react-classname",
+  "version": "0.1.0",
+  "description": "Allow elements to be created with a plain string specifying className",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielearwicker/react-classname.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Daniel Earwicker <dan@earwicker.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielearwicker/react-classname/issues"
+  },
+  "homepage": "https://github.com/danielearwicker/react-classname"
+}

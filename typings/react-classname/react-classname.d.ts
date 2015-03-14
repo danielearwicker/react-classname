@@ -1,0 +1,128 @@
+///<reference path="../react/react.d.ts"/>
+
+declare module "react-classname" {
+
+    import react = require("react");
+    import HTMLFactory = react.HTMLFactory;
+
+    interface Module {
+        wrapFactory(factory: HTMLFactory): HTMLFactory;
+
+        // Copied from interface ReactDOM...
+        a: HTMLFactory;
+        abbr: HTMLFactory;
+        address: HTMLFactory;
+        area: HTMLFactory;
+        article: HTMLFactory;
+        aside: HTMLFactory;
+        audio: HTMLFactory;
+        b: HTMLFactory;
+        base: HTMLFactory;
+        bdi: HTMLFactory;
+        bdo: HTMLFactory;
+        big: HTMLFactory;
+        blockquote: HTMLFactory;
+        body: HTMLFactory;
+        br: HTMLFactory;
+        button: HTMLFactory;
+        canvas: HTMLFactory;
+        caption: HTMLFactory;
+        cite: HTMLFactory;
+        code: HTMLFactory;
+        col: HTMLFactory;
+        colgroup: HTMLFactory;
+        data: HTMLFactory;
+        datalist: HTMLFactory;
+        dd: HTMLFactory;
+        del: HTMLFactory;
+        details: HTMLFactory;
+        dfn: HTMLFactory;
+        dialog: HTMLFactory;
+        div: HTMLFactory;
+        dl: HTMLFactory;
+        dt: HTMLFactory;
+        em: HTMLFactory;
+        embed: HTMLFactory;
+        fieldset: HTMLFactory;
+        figcaption: HTMLFactory;
+        figure: HTMLFactory;
+        footer: HTMLFactory;
+        form: HTMLFactory;
+        h1: HTMLFactory;
+        h2: HTMLFactory;
+        h3: HTMLFactory;
+        h4: HTMLFactory;
+        h5: HTMLFactory;
+        h6: HTMLFactory;
+        head: HTMLFactory;
+        header: HTMLFactory;
+        hr: HTMLFactory;
+        html: HTMLFactory;
+        i: HTMLFactory;
+        iframe: HTMLFactory;
+        img: HTMLFactory;
+        input: HTMLFactory;
+        ins: HTMLFactory;
+        kbd: HTMLFactory;
+        keygen: HTMLFactory;
+        label: HTMLFactory;
+        legend: HTMLFactory;
+        li: HTMLFactory;
+        link: HTMLFactory;
+        main: HTMLFactory;
+        map: HTMLFactory;
+        mark: HTMLFactory;
+        menu: HTMLFactory;
+        menuitem: HTMLFactory;
+        meta: HTMLFactory;
+        meter: HTMLFactory;
+        nav: HTMLFactory;
+        noscript: HTMLFactory;
+        object: HTMLFactory;
+        ol: HTMLFactory;
+        optgroup: HTMLFactory;
+        option: HTMLFactory;
+        output: HTMLFactory;
+        p: HTMLFactory;
+        param: HTMLFactory;
+        picture: HTMLFactory;
+        pre: HTMLFactory;
+        progress: HTMLFactory;
+        q: HTMLFactory;
+        rp: HTMLFactory;
+        rt: HTMLFactory;
+        ruby: HTMLFactory;
+        s: HTMLFactory;
+        samp: HTMLFactory;
+        script: HTMLFactory;
+        section: HTMLFactory;
+        select: HTMLFactory;
+        small: HTMLFactory;
+        source: HTMLFactory;
+        span: HTMLFactory;
+        strong: HTMLFactory;
+        style: HTMLFactory;
+        sub: HTMLFactory;
+        summary: HTMLFactory;
+        sup: HTMLFactory;
+        table: HTMLFactory;
+        tbody: HTMLFactory;
+        td: HTMLFactory;
+        textarea: HTMLFactory;
+        tfoot: HTMLFactory;
+        th: HTMLFactory;
+        thead: HTMLFactory;
+        time: HTMLFactory;
+        title: HTMLFactory;
+        tr: HTMLFactory;
+        track: HTMLFactory;
+        u: HTMLFactory;
+        ul: HTMLFactory;
+        "var": HTMLFactory;
+        video: HTMLFactory;
+        wbr: HTMLFactory;
+    }
+
+    var m: Module;
+    export = m;
+}
